@@ -1,0 +1,36 @@
+/* #f00 rojo
+#000 negro 
+#974807  cafe 
+#fac090 hueso
+#0070c0 azul 
+ #ffff00 amarillo
+
+*/
+
+
+
+
+.mario{
+    margin: 70px 150px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background-color: #f00;
+    box-shadow: 
+    /* gorra primera fila */
+    1em 0 #f00,2em 0 #f00,
+    3em 0 #f00,4em 0 #f00,
+    5em 0 #f00,
+
+    /* segunda fila */
+
+    -1em 1em #f00, 0 1em #f00,
+    1em 1em #f00, 2em 1em #f00,
+    3em 1em #f00, 4em 1em #f00,
+    5em 1em #f00, 6em 1em #f00,
+    7em 1em #f00, 8em 1em #f00,
+    /* cara primera linea  */
+    -1em 2em #974807,0 2em #974807
+
+    ;
+}

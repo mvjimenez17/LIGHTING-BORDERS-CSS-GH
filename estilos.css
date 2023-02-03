@@ -86,3 +86,15 @@ body{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
+
+@media screen and (min-width: 300px ){
+
+    .container .box img{
+        width: 100%;
+       
+  }
+
+}
+
+
